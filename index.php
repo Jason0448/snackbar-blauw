@@ -18,6 +18,6 @@ include 'header.php';
     <title>Home</title>
 </head>
 <body>
-    
+    <h1>Snackbarretje patatje mayoooo</h1>
 </body>
 </html>

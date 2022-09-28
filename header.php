@@ -2,9 +2,6 @@
 
 require "database.php";
 
-session_start();
-
-
 ?> 
 
 <!DOCTYPE html>
@@ -28,7 +25,7 @@ session_start();
                         <a class="nav-link" aria-current="page" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="registreren.php">Registreren</a>
+                        <a class="nav-link" href="register.php">Registreren</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="inloggen.php">Inloggen</a>

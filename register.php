@@ -29,7 +29,7 @@ include 'header.php'
       </div>
       <div class="form-group">
         <label for="exampleInputTelefoonnummer">Telefoonnummer</label>
-        <input type="telefoonnummer" class="form-control" placeholder="Voer uw telefoonnummer in" name="phonenumber" required>
+        <input type="telefoonnummer" class="form-control" placeholder="Voer uw telefoonnummer in" name="phonenumber">
       </div>
       <div class="form-group">
         <label for="exampleInputEmail">Email Adres</label>
