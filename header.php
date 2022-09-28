@@ -28,7 +28,7 @@ require "database.php";
                         <a class="nav-link" href="register.php">Registreren</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="inloggen.php">Inloggen</a>
+                        <a class="nav-link" href="login.php">Inloggen</a>
                     </li>
                 </ul>
             </div>
