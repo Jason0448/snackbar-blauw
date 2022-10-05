@@ -25,19 +25,20 @@ include 'header.php';
     <br>
     <div class="container">
         <div class="firstdiv">
-            <H4>Welkom bij snackbar blauw</H4>
+            <H4 style="color:blue ;">Welkom bij snackbar blauw</H4>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo mollitia ad dicta, harum accusantium iusto quos asperiores rerum distinctio saepe sed recusandae consectetur minus, quibusdam nisi neque assumenda nesciunt nemo? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit illum quod excepturi. Reprehenderit culpa, sunt sint explicabo laboriosam molestiae fugiat eius, quia provident officia odio, ex quidem quaerat animi eveniet.
         </div>
         <div class="seconddiv">
             <img src="../snackbar-blauw/images/patat.jpg">
         </div>
     </div>
-    <div class="container"> 
-        <div class="thirddiv">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, hic? Rerum adipisci eos eum eius corrupti sunt quasi mollitia reprehenderit aliquid dolore optio delectus, officia deserunt tenetur itaque. Modi, amet.
-        </div> 
-        <div class="fourth">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, consequatur tempora illo perferendis corrupti velit, magnam ipsam voluptate cum consectetur quae et laboriosam? Alias a repellat fugiat praesentium at esse.
+    <div style="margin-top: 50px;" class="container">
+        <div class="firstdiv">
+            <img src="../snackbar-blauw/images/1493871.jpg">
+        </div>
+        <div class="seconddiv">
+            <H4 style="color: blue;">Over Snackbar Blauw</H4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus, saepe quibusdam unde numquam tempore cum eligendi, ut fugiat corporis laboriosam adipisci eum perferendis quam laudantium! Laboriosam consequuntur assumenda aperiam.
         </div>
     </div>
 </body>

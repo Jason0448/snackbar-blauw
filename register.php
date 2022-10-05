@@ -39,6 +39,7 @@ include 'header.php'
         <label for="exampleInputWachtwoord">Wachtwoord</label>
         <input type="password" class="form-control" placeholder="Wachtwoord" name="password" required>
       </div>
+      <a href="login.php">Heb je al een account? klik hier om in te loggen</a>
       <br>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>

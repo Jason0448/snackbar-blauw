@@ -1,5 +1,7 @@
 <?php
 include 'header.php';
+
+session_start();
 ?>
 
 
@@ -28,6 +30,7 @@ include 'header.php';
         <label for="exampleInputWachtwoord">Wachtwoord</label>
         <input type="password" class="form-control" placeholder="Wachtwoord" name="password" required>
       </div>
+      <a href="register.php">Nog geen account? Klik hier</a>
       <?php
       if (!empty($_SESSION["wrong_pas"])) {
         if ($_SESSION["wrong_pas"] == true) {

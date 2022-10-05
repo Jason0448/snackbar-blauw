@@ -25,6 +25,9 @@ require "database.php";
                         <a class="nav-link" aria-current="page" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="product-overview.php">Producten</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="register.php">Registreren</a>
                     </li>
                     <li class="nav-item">

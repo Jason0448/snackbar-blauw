@@ -1,38 +1,36 @@
 <?php
 //moet gebeuren
-include "database.php";
+require "database.php";
 
+//sessie starten om sessions te kunnen gebruiken
 session_start();
 
-    $_SESSION["wrong_password"] = true; 
+//als er niks ingevuld word en op de button word geklikt is dit true
+$_SESSION["wrong_password"] = true;
 
-    $email = $_POST['email'];
-    $password = $_POST['password'];
+//info uit form halen
+$email = $_POST["email"];
+$password = $_POST["password"];
 
-    $sql = "SELECT * FROM users WHERE email = '$email' AND password = '$password' LIMIT 1";
-    
-    $result = mysqli_query($conn, $sql);
+//email halen uit tabel users, 1 niet meer.
+$result = $conn->query("SELECT * FROM users WHERE email = '$email' LIMIT 1");
 
-    $user = $result->fetch_assoc();
+//de data omzetten naar een assosciative array 
+$user = $result->fetch_assoc();
 
+//als $user niet leeg is check of het ingevoerde password hetzelfde is als die vannuit de db 
+if (!empty($user)) {
 
-    if(!$row = mysqli_fetch_assoc($result)){
-
-        if($user['email'] == $email && ['wachtwoord'] == $password) {
-
+    if ($user['email'] == $email && $user['password'] == $password) {
         $_SESSION["wrong_pas"] = false;
+
+        $_SESSION['user_id'] = $user['id']; 
+
         header("Location: index.php");
         exit();
-        //header("Location: login.php");
-        //echo "<p style=color:red>Gegevens kloppen niet</p>";
-        
     } else {
         $_SESSION["wrong_pas"] = true;
         header("Location: login.php");
         exit();
-        //echo "Login Succesvol";
-        //header("Location: index.php");
     }
 }
-
-?>
