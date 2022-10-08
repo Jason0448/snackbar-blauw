@@ -26,7 +26,7 @@ include 'header.php';
     <div class="container">
         <div class="firstdiv">
             <H4 style="color:blue ;">Welkom bij snackbar blauw</H4>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo mollitia ad dicta, harum accusantium iusto quos asperiores rerum distinctio saepe sed recusandae consectetur minus, quibusdam nisi neque assumenda nesciunt nemo? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit illum quod excepturi. Reprehenderit culpa, sunt sint explicabo laboriosam molestiae fugiat eius, quia provident officia odio, ex quidem quaerat animi eveniet.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo mollitia ad dicta, harum accusantium iusto quos asperiores rerum distinctio saepe sed recusandae consectetur minus, quibusdam nisi neque assumenda nesciunt nemo? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit illum quod excepturi. Reprehenderit culpa, sunt sint explicabo laboriosam molestiae fugiat eius, quia provident officia odio, ex quidem quaerat animi eveniet. <a href="order.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="false">Bestel Hier</a>
         </div>
         <div class="seconddiv">
             <img src="../snackbar-blauw/images/patat.jpg">

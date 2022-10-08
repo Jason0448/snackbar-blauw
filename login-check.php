@@ -24,9 +24,13 @@ if (!empty($user)) {
     if ($user['email'] == $email && $user['password'] == $password) {
         $_SESSION["wrong_pas"] = false;
 
-        $_SESSION['user_id'] = $user['id']; 
+        $_SESSION['user_id'] = $user['id'];
 
-        header("Location: index.php");
+        $_SESSION['userData'] = $user;
+
+       // $_SESSION['role'] = $user['role'];
+
+        header("Location: account.php");
         exit();
     } else {
         $_SESSION["wrong_pas"] = true;
